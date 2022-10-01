@@ -1,0 +1,14 @@
+.bb3 {
+  width: 10%;
+  height: 33%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  background: repeating-linear-gradient(
+      black,
+      black 5%,
+      transparent 5%,
+      transparent 10%
+    ),
+    repeating-linear-gradient(90deg, black, black 12%, green 12%, green 44%);
+}
